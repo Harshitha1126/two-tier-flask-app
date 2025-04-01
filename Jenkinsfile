@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("code") {
             steps {
-                git url: "https://github.com/Harshitha1126/two-tier-flask-app.git", branch: "master"
+                git url: "https://github.com/Harshitha1126/two-tier-flask-app.git", branch: "Feature_modified"
                 echo "code completed"
             }
         }
